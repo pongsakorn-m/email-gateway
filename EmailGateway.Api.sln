@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailGateway.Api", "EmailGateway.Api\EmailGateway.Api.csproj", "{D63484CD-7A2C-4472-8E00-6E44E68ADF7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1CF7DC38-80A0-44C3-BC5C-5DFEFE7A2CE5}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailGateway.Application", "EmailGateway.Application\EmailGateway.Application.csproj", "{73A57EFE-A20C-473E-AA8B-984C6FD478EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailGateway.Domain", "EmailGateway.Domain\EmailGateway.Domain.csproj", "{F2D6D25A-39E0-48F5-A96D-09C8F0AB05C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailGateway.Infrastructure", "EmailGateway.Infrastructure\EmailGateway.Infrastructure.csproj", "{A43D52F1-69AF-4117-AB2D-4BE2116C5DDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D63484CD-7A2C-4472-8E00-6E44E68ADF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63484CD-7A2C-4472-8E00-6E44E68ADF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63484CD-7A2C-4472-8E00-6E44E68ADF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63484CD-7A2C-4472-8E00-6E44E68ADF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A57EFE-A20C-473E-AA8B-984C6FD478EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A57EFE-A20C-473E-AA8B-984C6FD478EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A57EFE-A20C-473E-AA8B-984C6FD478EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A57EFE-A20C-473E-AA8B-984C6FD478EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D6D25A-39E0-48F5-A96D-09C8F0AB05C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D6D25A-39E0-48F5-A96D-09C8F0AB05C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D6D25A-39E0-48F5-A96D-09C8F0AB05C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D6D25A-39E0-48F5-A96D-09C8F0AB05C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43D52F1-69AF-4117-AB2D-4BE2116C5DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43D52F1-69AF-4117-AB2D-4BE2116C5DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43D52F1-69AF-4117-AB2D-4BE2116C5DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43D52F1-69AF-4117-AB2D-4BE2116C5DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
